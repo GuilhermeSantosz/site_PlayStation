@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+body {
+    background-color: #e1e2e4e5;
+    font-family: 'Kotta One', serif;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #999fb1;
+    color: #ecf0f1;
+}
+
+.logo {
+    height: 70px;
+    margin: 12px;
+    padding: 8px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 28px;
+    font-family: 'Oswald', sans-serif;
+}
+
+header nav li a {
+    color: #2c2fca;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    display: block;
+    justify-content: space-between;
+    text-align: center;
+    padding: 36px;
+}
+
+
+section p {
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+
+section img {
+    height: 500px;
+    align-items: center;
+    padding: 8px;
+}
+
+.spider {
+    color:red;
+    font-size: 32px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.zero {
+    color: rgb(17, 155, 155);
+    font-size: 32px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.more {
+    text-align: center;
+    align-items: center;
+    color: #2c2fca;
+}
+
+.last img {
+    height: 190px;
+}
+
+section li {
+    display: inline;
+}
+
+.god img {
+    height: 190px;    
+}
+
+.hogwarts img {
+    height: 190px;
+}
+
+.final img {
+    height: 190px;
+    width: 160px;
+}
+
+.gran img{
+    height: 190px;
+    width: 150px;
+}
+
+.street img{
+    height: 190px;
+    width: 150px;
+}
+
+
+form textarea {
+    margin: 8px;
+    resize: none;
+    height: 200px;
+    display: inline;
+}
+
+.social img {
+    height: 50px;
+    display: inline;
+    align-items: center;
+    margin: 8px;
+}
+
+.btn {
+    width: 165px;
+    font-family: 'Kotta One', serif;
+} 
